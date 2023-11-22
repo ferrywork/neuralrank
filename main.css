@@ -1,0 +1,240 @@
+h2 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+p {
+    line-height: 25px;
+}
+.content-main {
+    position: relative;
+    width: 90%;
+    margin: 40px auto;
+}
+.nl_setting_input{
+    width: 40%;
+}
+.content-main .content-box {
+    height: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+}
+.content-main .content-box:before, .content-main .content-box:after {
+    content: "";
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.content-main .content-box:before {
+    background-color: #eee;
+    top: 0;
+}
+.content-main .content-box:after {
+    background-color: #fff;
+    bottom: -2px;
+}
+
+
+
+.table-content .col-inner button {
+    border: none;
+    background-color: #7fc7c0;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.col-inner textarea {
+    height: 45px;
+    border: 1px solid rgb(0 0 0 / 11%);
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+}
+.col-inner svg {
+    max-width: 15px;
+    margin-right: 5px;
+    vertical-align: text-bottom;
+}
+.col-inner svg path {
+    fill: #fff;
+}
+.col-inner span {
+    text-transform: capitalize;
+    color: #7fc7c0;
+    cursor: pointer;
+}
+.col-inner.action-button {
+    text-align: center;
+    margin: 0;
+}
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table-col-main {
+    padding: 0 10px;
+}
+.table-content {
+    margin: 20px 0;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 30px;
+
+    box-shadow: 0px 1px 5px 1px rgb(0 0 0 / 17%);
+    border-radius: 10px;
+}
+.col-inner label {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.col-inner {
+    margin-bottom: 20px;
+}
+.inner-check label {
+    margin: 0;
+}
+.inner-check input {
+    margin: 0;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+}
+.openbox {
+    position: fixed;
+
+    max-width: 700px;
+    width: 100%;
+
+    height: calc(100vh - 70px);
+
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    background: #f3f5f5;
+    padding: 20px 20px 0;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 101;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+.popup-role {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    padding: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+    gap: 20px;
+}
+.popup-role label {
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    text-transform: capitalize;
+}
+.input-field select {
+    width: 100%;
+    width: 100%;
+    text-align: left;
+    border: 1px solid rgb(0 0 0 / 16%);
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.input-field input[type="text"] {
+    width: 100%;
+    border: 1px solid rgb(0 0 0 / 16%);
+    padding: 5px 5px;
+    border-radius: 5px;
+    color: #000;
+    text-align: left;
+    font-size: 14px;
+}
+.input-field input[type="text"]:focus {
+    outline: none;
+}
+.input-field select:focus {
+    outline: none;
+}
+.s3-btn-close {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+}
+.s3-btn-close svg {
+    width: 10px;
+}
+input.nl_input {
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+
+
+/* new css  strt here select image */
+.featured-content{
+    display: grid;
+    grid-template-columns: 65% 1fr;
+    gap:40px;
+    align-items: self-start;
+    padding:0 10px;
+}
+.featured-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 20px;
+
+}
+.featured img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.featured-text h5{
+    margin:0 0 15px;
+    font-size: 14px;
+    color:#000;
+}
+.featured-text p{
+    margin:0 0 15px;
+    font-size: 16px;
+    color: #000;
+    line-height: 24px;
+}
+.featured-text h3{
+    font-size: 20px;
+    color: #000;
+    margin:0 0 15px;
+}
+
+.checked-image label{
+    font-size: 14px;
+    color: #000;
+}
